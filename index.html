@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta>
+    <title>Sekigae</title>
+</head>
+
+<body>
+    <div id="input-container">
+        <div class="input-item">
+            <p>クラスの人数</p>
+            <form id="ClassSize" action="#">
+                <input type="number" id="input-message" value="">
+            </form>
+        </div>
+        <div class="input-item">
+            <p>前のほうが良い人の名簿番号</p>
+            <form id="ForwardNumber">
+                <input type="number">
+                <input type="button" onclick="addNumber()" value="追加">
+                <input type="button" onclick="RemoveNumber()" value="番号削除">
+            </form>
+        </div>
+        <div class="input-item">
+            <input type="button" onclick="SekigaeExecute()" value="決定">
+        </div>
+    </div>
+    <table width="600" cellspacing="0" cellpadding="5" border="1" bordercoloer="000000">
+        <tr>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+        </tr>
+        <tr>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+        </tr>
+        <tr>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+        </tr>
+        <tr>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+            <td bgcolor="FFFFFF" height="100"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
